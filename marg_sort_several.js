@@ -1,5 +1,3 @@
-import ArrayView from './array-view.js';
-import times from 'lodash.times';
 
 let defaultCompare = (a, b) =>
   a > b ? 1 : (a < b ? -1 : 0);
